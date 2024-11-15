@@ -12,7 +12,7 @@ const initialFormData = {
     author: '',         
     price: '',          
     description: '',
-    quantity: ''
+    quantity: '',
 };
 
 // Use React's useState hook to create state for form data
@@ -131,10 +131,10 @@ const handlesubmit = async (e) => {
         <br />
       
         <div>
-          <label>Book Quentity:</label>
+          <label>Book Quantity:</label>
           <input
             type="number"
-            name="quentity"
+            name="quantity"
             value={formData.quantity}
             onChange={handleChange}
           />
