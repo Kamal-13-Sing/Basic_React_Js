@@ -26,7 +26,7 @@ const ViewBook = () => {
             } finally {
 
                 setLoading(false);
-                
+
             }
         };
 
@@ -46,8 +46,8 @@ const ViewBook = () => {
                     <tr>
                         <th>ID</th>
                         <th>Book ID</th>
-                        <th>Title</th>
-                        <th>Author</th>
+                        <th>BookTitle</th>
+                        <th>BookAuthor</th>
                         <th>Price in (Rs.)</th>
                         <th>Description</th>
                         <th>Quantity</th>
